@@ -10,7 +10,7 @@ export class NavComponent {
   constructor(
     private route: Router
     
-  ) { }
+  ) {}
 
   bus() : void{
     this.route.navigateByUrl("/bus");
